@@ -110,7 +110,7 @@ export default function HeroCarousel() {
       {/* Botões de navegação */}
       <button
         onClick={goToPrevious}
-        className="absolute left-2 sm:left-4 md:left-6 top-1/2 transform -translate-y-1/2 bg-white/90 hover:bg-white text-header p-2 sm:p-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-110 z-10 border border-gray-200"
+        className="absolute left-2 sm:left-4 md:left-6 top-1/2 transform -translate-y-1/2 bg-white/90 hover:bg-white text-[#1FD9D8] p-2 sm:p-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-110 z-10 border border-gray-200"
         aria-label="Slide anterior"
       >
         <svg
